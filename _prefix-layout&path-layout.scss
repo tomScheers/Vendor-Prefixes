@@ -12,12 +12,6 @@
     align-items: $value;
 }
 
-// Mixin for aligning boxes
-@mixin align-content($value) {
-    -webkit-box-align: $value;
-    -moz-box-align: $value;
-}
-
 // Mixin for box flex properties
 @mixin box-flex($value) {
     -webkit-box-flex: $value;
