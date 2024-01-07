@@ -21,6 +21,7 @@
 }
 
 // Mixin for setting the hyphens of an element
+// This refers to the - symbol that you often see in kebab-case or when a word gets cut off at the end of a line
 @mixin hyphens($value) {
     -webkit-hyphens: $value;
     -moz-hyphens: $value;
@@ -28,12 +29,14 @@
 }
 
 // Mixin for setting the line break mode of an element
+// The line-break CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols
 @mixin line-break($mode) {
     -webkit-line-break: $mode;
     line-break: $mode;
 }
 
 // Mixin for setting the line clamp of an element
+// This allows limiting of the contents of a block to the specified number of lines
 @mixin line-clamp($limit) {
     -webkit-line-clamp: $limit;
     line-clamp: $limit;
@@ -56,5 +59,6 @@
 
 // Mixin for setting the word break mode of an element
 @mixin word-break($mode) {
+    -ms-word-break: $mode;
     word-break: $mode;
 }
