@@ -1,0 +1,151 @@
+// Mixin for applying backdrop filter to an elements
+@mixin backdrop-filter($filter) {
+    -webkit-backdrop-filter: $filter;
+    backdrop-filter: $filter;
+}
+
+// Mixin for setting the background clip of an element
+@mixin background-clip($clip) {
+    -moz-background-clip: $clip;
+    -webkit-background-clip: $clip;
+    background-clip: $clip;
+}
+
+// Mixin for setting the background origin of an element
+@mixin background-origin($origin) {
+    -moz-background-origin: $origin;
+    -webkit-background-origin: $origin;
+    background-origin: $origin;
+}
+
+// Mixin for setting the backface visibility of an element
+@mixin backface-visibility($visibility) {
+    -webkit-backface-visibility: $visibility;
+    -moz-backface-visibility: $visibility;
+    backface-visibility: $visibility;
+}
+
+// Mixin for setting the border image of an element
+@mixin border-image($url, $slice: 100%, $width: 0, $outset: stretch) {
+    -o-border-image: $url $slice $width $outset;
+    -moz-border-image: $url $slice $width $outset;
+    -webkit-border-image: $url $slice $width $outset;
+    border-image: $url $slice $width $outset;
+}
+
+// Mixin for setting animation properties
+@mixin animation($value) {
+    -webkit-animation: $value;
+    -o-animation: $value;
+    -moz-animation: $value;
+    animation: $value;
+}
+
+// Mixin for specifying animation delay
+@mixin animation-delay($value) {
+    -webkit-animation-delay: $value;
+    -o-animation-delay: $value;
+    -moz-animation-delay: $value;
+    animation-delay: $value;
+}
+
+// Mixin for setting animation direction
+@mixin animation-direction($value) {
+    -webkit-animation-direction: $value;
+    -o-animation-direction: $value;
+    -moz-animation-direction: $value;
+    animation-direction: $value;
+}
+
+// Mixin for setting animation duration
+@mixin animation-duration($value) {
+    -webkit-animation-duration: $value;
+    -o-animation-duration: $value;
+    -moz-animation-duration: $value;
+    animation-duration: $value;
+}
+
+// Mixin for setting animation fill mode
+@mixin animation-fill_mode($value) {
+    -webkit-animation-fill-mode: $value;
+    -o-animation-fill-mode: $value;
+    -moz-animation-fill-mode: $value;
+    animation-fill-mode: $value;
+}
+
+// Mixin for setting animation iteration count
+@mixin animation-iteration_count($value) {
+    -webkit-animation-iteration-count: $value;
+    -o-animation-iteration-count: $value;
+    -moz-animation-iteration-count: $value;
+    animation-iteration-count: $value;
+}
+
+// Mixin for specifying animation names
+@mixin animation-name($value) {
+    -webkit-animation-name: $value;
+    -o-animation-name: $value;
+    -moz-animation-name: $value;
+    animation-name: $value;
+}
+
+// Mixin for setting animation play state
+@mixin animation-play_state($value) {
+    -webkit-animation-play-state: $value;
+    -o-animation-play-state: $value;
+    -moz-animation-play-state: $value;
+    animation-play-state: $value;
+}
+
+// Mixin for specifying animation timing function
+@mixin animation-timing_function($value) {
+    -webkit-animation-timing-function: $value;
+    -o-animation-timing-function: $value;
+    -moz-animation-timing-function: $value;
+    animation-timing-function: $value;
+}
+
+// Mixin for setting the object fit of an element
+@mixin object-fit($fit) {
+    -o-object-fit: $fit;
+    object-fit: $fit;
+}
+
+// Mixin for setting the perspective property of an element
+@mixin perspective($value) {
+    -webkit-perspective: $value;
+    -moz-perspective: $value;
+    perspective: $value;
+}
+
+// Mixin for setting the perspective origin of an element
+@mixin perspective-origin($value) {
+    -webkit-perspective-origin: $value;
+    -moz-perspective-origin: $value;
+    perspective-origin: $value;
+}
+
+// Mixin for setting the transform origin property of an element along the x-axis
+@mixin transform-origin-x($origin) {
+    -webkit-transform-origin-x: $origin;
+    -ms-transform-origin-x: $origin;
+}
+
+// Mixin for setting the transform origin property of an element along the y-axis
+@mixin transform-origin-y($origin) {
+    -webkit-transform-origin-y: $origin;
+    -ms-transform-origin-y: $origin;
+}
+
+// Mixin for setting the transform origin property of an element along the z-axis
+@mixin transform-origin-z($origin) {
+    -webkit-transform-origin-z: $origin;
+    -ms-transform-origin-z: $origin;
+}
+
+// Mixin for setting the transform origin property of an element
+@mixin transform-origin($value) {
+    -webkit-transform-origin: $value;
+    -moz-transform-origin: $value;
+    transform-origin: $value;
+}

@@ -1,0 +1,284 @@
+// Mixin for aligning boxes
+@mixin align-content($value) {
+    -ms-align-content: $value;
+    -webkit-align-content: $value;
+    align-content: $value;
+}
+
+// Mixin for aligning items in a flex container
+@mixin align-items($value) {
+    -ms-align-items: $value;
+    -webkit-align-items: $value;
+    align-items: $value;
+}
+
+// Mixin for aligning boxes
+@mixin align-content($value) {
+    -webkit-box-align: $value;
+    -moz-box-align: $value;
+}
+
+// Mixin for box flex properties
+@mixin box-flex($value) {
+    -webkit-box-flex: $value;
+    -moz-box-flex: $value;
+}
+
+// Mixin for setting box direction
+@mixin box-direction($value) {
+    -webkit-box-direction: $value;
+    -moz-box-direction: $value;
+}
+
+// Mixin for setting box flex group
+@mixin box-flex_group($value) {
+    -webkit-box-flex-group: $value;
+    -moz-box-flex-group: $value;
+}
+
+// Mixin for setting box ordinal group
+@mixin box-ordinal_group($value) {
+    -webkit-box-ordinal-group: $value;
+    -moz-box-ordinal-group: $value;
+}
+
+// Mixin for setting box orientation
+@mixin box-orient($value) {
+    -webkit-box-orient: $value;
+    -moz-box-orient: $value;
+}
+
+// Mixin for breaking content after
+@mixin break-after($value) {
+    -webkit-break-after: $value;
+    break-after: $value;
+}
+
+// Mixin for breaking content before
+@mixin break-before($value) {
+    -webkit-break-before: $value;
+    break-before: $value;
+}
+
+// Mixin for breaking content inside
+@mixin break-inside($value) {
+    -webkit-break-inside: $value;
+    break-inside: $value;
+}
+
+// Mixin for setting the column gap of an element
+@mixin column-gap($length) {
+    -moz-column-gap: $length;
+    -webkit-column-gap: $length;
+    column-gap: $length;
+}
+
+// Mixin for setting the column rule of an element
+@mixin column-rule($width, $style, $color) {
+    -moz-column-rule: $width $style $color;
+    -webkit-column-rule: $width $style $color;
+    column-rule: $width $style $color;
+}
+
+// Mixin for setting the column rule of an element
+@mixin column-rule-color ($color) {
+    -moz-column-rule-color: $color;
+    -webkit-column-rule-color: $color;
+    column-rule-color: $color;
+}
+// Mixin for setting the column rule of an element
+@mixin column-rule-style ($style) {
+    -moz-column-rule-style: $style;
+    -webkit-column-rule-style: $style;
+    column-rule-style: $style;
+}
+// Mixin for setting the column rule of an element
+@mixin column-rule-width ($width) {
+    -moz-column-rule-width: $width;
+    -webkit-column-rule-width: $width;
+    column-rule-width: $width;
+}
+// Mixin for setting the column span of an element
+@mixin column-span($span) {
+    -moz-column-span: $span;
+    -webkit-column-span: $span;
+    column-span: $span;
+}
+
+// Mixin for setting the number of columns of an element
+@mixin columns($count) {
+    -moz-columns: $count;
+    -webkit-columns: $count;
+    columns: $count;
+}
+
+// Mixin for positioning within grid columns
+@mixin grid-column($value) {
+    -ms-grid-column: $value;
+    grid-column: $value;
+}
+
+// Mixin for defining grid column template
+@mixin grid-template-columns($value) {
+    -ms-grid-columns: $value;
+    grid-template-columns: $value;
+}
+
+// Mixin for grid-column
+@mixin grid-column ($column) {
+    -ms-grid-column: $column;
+    grid-column: $column;    
+}
+
+// Mixin for defining gap between grid items
+@mixin grid-gap($value) {
+    -ms-grid-gap: $value;
+    grid-gap: $value;
+}
+
+// Mixin for grid-columns
+@mixin grid-template-columns ($columns) {
+    -ms-grid-columns: $columns;
+    grid-template-columns: $columns;
+}
+
+// Mixin for positioning within grid rows
+@mixin grid-row($value) {
+    -ms-grid-row: $value;
+    grid-row: $value;
+}
+
+// Mixin for defining grid row template
+@mixin grid-template-rows($value) {
+    -ms-grid-rows: $value;
+    grid-template-rows: $value;
+}
+
+// Mixin for grid-row
+@mixin grid-row ($row) {
+    -ms-grid-row: $row;
+    grid-row: $row;
+}
+
+// Mixin for grid-area
+@mixin grid-area ($area) {
+    -ms-grid-area: $area;
+    grid-area: $area;    
+}
+
+// Mixin for grid-auto-columns
+@mixin grid-auto-columns ($autoColumns) {
+    -ms-grid-auto-columns: $autoColumns;
+    grid-auto-columns: $autoColumns;
+}
+
+// Mixin for grid-auto-rows
+@mixin grid-auto-row ($autoRows) {
+    -ms-grid-auto-rows: $autoRows;
+    grid-auto-rows: $autoRows;
+}
+
+// Mixin for grid-auto-flow
+@mixin grid-auto-flow ($autoFlow) {
+    -ms-grid-auto-flow: $autoFlow;
+    grid-auto-flow: $autoFlow;
+}
+
+// Mixin for flex-direction
+@mixin flex-direction ($direction) {
+    -ms-flex-direction: $direction;
+    -webkit-flex-direction: $direction;
+    flex-direction: $direction;
+}
+
+// Mixin for flex item growth
+@mixin flex-grow($value) {
+    -ms-flex-positive: $value;
+    -webkit-flex-grow: $value;
+    flex-grow: $value;
+}
+
+// Mixin for flex item shrinking
+@mixin flex-shrink($value) {
+    -ms-flex-negative: $value;
+    -webkit-flex-shrink: $value;
+    flex-shrink: $value;
+}
+
+// Mixin for setting the flex properties of an element
+@mixin flex($grow, $shrink, $basis) {
+    -webkit-box-flex: $grow;
+    -moz-box-flex: $grow;
+    flex-grow: $grow;
+    flex-shrink: $shrink;
+    flex-basis: $basis;
+}
+
+// Mixin for flex-flow
+@mixin flex-flow ($flow) {
+    -ms-flex-flow: $flow;
+    -webkit-flex-flow: $flow;
+    flex-flow: $flow;
+}
+
+// Mixin for flex-order 
+@mixin flex-order ($order) {
+    -ms-flex-order: $order;
+    -webkit-order: $order;
+    order: $order;    
+}
+
+// Mixin for flex-wrap
+@mixin flex-wrap ($wrap) {
+    -ms-flex-wrap: $wrap;    
+    -webkit-flex-wrap: $wrap;
+    flex-wrap: $wrap;
+}
+
+// Mixin for flowing content
+@mixin flow-from($name) {
+    -webkit-flow-from: $name;
+    -ms-flow-from: $name;
+    -webkit-flow-into: $name;
+    -ms-flow-into: $name;
+}
+
+// Mixin for justify-content
+@mixin justify-content($value) {
+    -ms-justify-content: $value;
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+// Mixin for setting the transform-style property of an element
+@mixin transform-style($value) {
+    -webkit-transform-style: $value;
+    -moz-transform-style: $value;
+    transform-style: $value;
+}
+
+// Mixin for scroll behavior
+@mixin scroll-behavior($value) {
+    -ms-scroll-behavior: $value;
+    scroll-behavior: $value;
+}
+
+// Mixin for box model properties
+@mixin box-sizing($value) {
+    -webkit-box-sizing: $value;
+    -moz-box-sizing: $value;
+    box-sizing: $value;
+}
+
+// Mixin for placeholder styling
+@mixin placeholder-styling($color) {
+    &::-webkit-input-placeholder,
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder,
+    &:-moz-placeholder {
+        color: $color;
+        opacity: 1;
+    }
+}

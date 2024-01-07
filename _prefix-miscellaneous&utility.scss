@@ -1,0 +1,63 @@
+// Mixin for setting the appearance property of an element
+@mixin appearance($value) {
+    -webkit-appearance: $value;
+    -moz-appearance: $value;
+    appearance: $value;
+}
+
+// Mixin for setting the transform properties of an element
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -ms-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+
+// Mixin for setting transition properties
+@mixin transition($property, $duration, $timing: ease, $delay: 0) {
+    -webkit-transition: $property $duration $timing $delay;
+    -moz-transition: $property $duration $timing $delay;
+    -o-transition: $property $duration $timing $delay;
+    transition: $property $duration $timing $delay;
+}
+// Mixin for setting transition properties
+@mixin transition-delay ($delay) {
+    -webkit-transition-delay: $delay;
+    -moz-transition-delay: $delay;
+    -o-transition-delay: $delay;
+    transition-delay: $delay;
+}
+// Mixin for setting transition properties
+@mixin transition-duration ($duration) {
+    -webkit-transition-duration: $duration;
+    -moz-transition-duration: $duration;
+    -o-transition-duration: $duration;
+    transition-duration: $duration;
+}
+// Mixin for setting transition properties
+@mixin transition-property ($property) {
+    -webkit-transition-property: $property;
+    -moz-transition-property: $property;
+    -o-transition-property: $property;
+    transition-property: $property;
+}
+// Mixin for setting transition properties
+@mixin transition-timing ($timing) {
+    -webkit-transition: $timing;
+    -moz-transition: $timing;
+    -o-transition: $timing;
+    transition: $timing;
+}
+// Mixin for smooth scrolling on overflow elements
+@mixin overflow-scrolling($value) {
+    -webkit-overflow-scrolling: $value;
+}
+
+// Mixin for setting the user-select property of an element
+@mixin user-select($value) {
+    -webkit-user-select: $value;
+    -moz-user-select: $value;
+    -ms-user-select: $value;
+    user-select: $value;
+}

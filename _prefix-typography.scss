@@ -1,0 +1,60 @@
+// Mixin for adjusting text
+@mixin text-adjust($value) {
+    -webkit-text-adjust: $value;
+    -moz-text-adjust: $value;
+    -ms-text-adjust: $value;
+    text-adjust: $value;
+}
+
+// Mixin for aligning text last
+@mixin text-align-last($value) {
+    -ms-text-align-last: $value;
+    -moz-text-align-last: $value;
+    text-align-last: $value;
+}
+
+// Mixin for setting the font feature settings of an element
+@mixin font-feature-setting($feature) {
+    -webkit-font-feature-settings: $feature;
+    -moz-font-feature-settings: $feature;
+    font-feature-settings: $feature;
+}
+
+// Mixin for setting the hyphens of an element
+@mixin hyphens($value) {
+    -webkit-hyphens: $value;
+    -moz-hyphens: $value;
+    hyphens: $value;
+}
+
+// Mixin for setting the line break mode of an element
+@mixin line-break($mode) {
+    -webkit-line-break: $mode;
+    line-break: $mode;
+}
+
+// Mixin for setting the line clamp of an element
+@mixin line-clamp($limit) {
+    -webkit-line-clamp: $limit;
+    line-clamp: $limit;
+}
+
+// Mixin for setting the text overflow of an element
+@mixin text-overflow($overflow) {
+    -ms-text-overflow: $overflow;
+    -webkit-text-overflow: $overflow;
+    text-overflow: $overflow;
+}
+
+// Mixin for adjusting text size
+@mixin text-size-adjust($value) {
+    -webkit-text-size-adjust: $value;
+    -moz-text-size-adjust: $value;
+    -ms-text-size-adjust: $value;
+    text-size-adjust: $value;
+}
+
+// Mixin for setting the word break mode of an element
+@mixin word-break($mode) {
+    word-break: $mode;
+}
